@@ -14,7 +14,10 @@ This is a project that turned the [aquabot Python script](https://github.com/ops
 * Can read twitter_creds.json; tested with environment variables and that also worked.
 
 
-# Install Python modules
+# Create a .zip deployment package
+
+The .zip file contains all the code and the additional libraries installed (through pip).
+
 ## No virtualenv
 
 ```bash
