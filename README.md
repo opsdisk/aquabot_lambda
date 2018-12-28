@@ -2,7 +2,6 @@
 # Python script to Lambda function
 This is a project that turned the [aquabot Python script](https://github.com/opsdisk/aquabot) into an AWS Lambda function.
 
-
 # Basic Setup
 
 * CloudWatch Event trigger cron job in UTC: `cron(15 16 * * ? *)` - replaces time.sleep() in a while loop.
@@ -12,7 +11,6 @@ This is a project that turned the [aquabot Python script](https://github.com/ops
 * Security Group: Outbound 443 only for data.edwardsaquifer.org and twitter.com
 * Test event is an empty dictionary: `{}`
 * Can read twitter_creds.json; tested with environment variables and that also worked.
-
 
 # Create a .zip deployment package
 
